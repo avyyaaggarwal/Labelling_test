@@ -7,6 +7,7 @@ def sum():
 def subtract():
   a = 10
   b = 20
+  print("change made by Avyya to check commit index")
   c = b - a
   print("change made by Avyya to check commit index")
   print(c)
