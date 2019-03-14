@@ -7,7 +7,6 @@ def mutliply():
   
 def divide():
   a = 10
-  print("change made by Avyya to check commit index")
   b = 20
   c = b/a
   print("change made by Avyya to check commit index")
