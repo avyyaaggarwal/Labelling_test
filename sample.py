@@ -9,6 +9,10 @@ def subtract():
   b = 20
   c = b - a
   print("test change")
+  print(hey)
+  print(Helllo test)
+  print("test change")
+  print(hey)
   print(Helllo test)
   print("change made by Avyya to check commit index")
   print(c)
