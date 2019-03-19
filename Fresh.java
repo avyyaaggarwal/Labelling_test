@@ -87,6 +87,7 @@ public class HttpTraceFilterTests {
 	
 	
 	public void testFunction()
+	print("change to test algorithm")
 	print(Test Function)
 	
 	
