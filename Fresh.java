@@ -117,7 +117,7 @@ public class HttpTraceFilterTests {
 	}
 	print("change made in 4th commit")
 	@Test
-	public void filterCapturesPrincipal() throws ServletException, IOException {
+	public void filterCapturesPrincipal() throws ServletException {
 		MockHttpServletRequest request = new MockHttpServletRequest();
 		Principal principal = mock(Principal.class);
 		given(principal.getName()).willReturn("alice");
