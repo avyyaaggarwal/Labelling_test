@@ -95,7 +95,7 @@ public class HttpTraceFilterTests {
 		assertThat(session).isNotNull();
 		assertThat(session.getId()).isNotNull();
 	}
-
+	print("change made in 3rd commit")
 	@Test
 	public void filterCapturesPrincipal() throws ServletException, IOException {
 		MockHttpServletRequest request = new MockHttpServletRequest();
@@ -137,11 +137,16 @@ public class HttpTraceFilterTests {
 	print("change made in 2nd commit")
 	print("change made in 2nd commit")
 	print("change made in 2nd commit")
+	print("change made in 3rd commit")
 	print("change made in 2nd commit")
 	print("change made in 2nd commit")
 	print("change made in 2nd commit")
 	print("change made in 2nd commit")
-	print("change made in 2nd commit")
+	print("change made in 3rd commit")
+	print("change made in 3rd commit")
+	print("change made in 3rd commit")
+	print("change made in 3rd commit")
+	print("change made in 3rd commit")
 	@Test
 	public void filterRejectsInvalidRequests() throws ServletException, IOException {
 		MockHttpServletRequest request = new MockHttpServletRequest();
