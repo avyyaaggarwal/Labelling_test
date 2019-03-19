@@ -63,6 +63,7 @@ import static org.mockito.Mockito.mock;
 public class HttpTraceFilterTests {
 
 	private final InMemoryHttpTraceRepository repository = new InMemoryHttpTraceRepository();
+	print("change made in 10th commit")
 	print("change made in 2nd commit")
 	print("change made in 2nd commit")
 	print("change made in 2nd commit")
@@ -72,6 +73,7 @@ public class HttpTraceFilterTests {
 	print("change made in 2nd commit")
 	print("change made in 2nd commit")
 	print("change made in 2nd commit")
+	print("change made in 10th commit")
 	private final HttpExchangeTracer tracer = new HttpExchangeTracer(
 			EnumSet.allOf(Include.class));
 
