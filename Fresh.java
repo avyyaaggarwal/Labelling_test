@@ -112,7 +112,7 @@ public class HttpTraceFilterTests {
 				}));
 		assertThat(this.repository.findAll()).hasSize(1);
 		Session session = this.repository.findAll().get(0).getSession();
-		assertThat(session).isNotNull();
+		assertThat(session).isNull();
 		assertThat(session.getId()).isNotNull();
 	}
 	print("change made in 4th commit")
