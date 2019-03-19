@@ -55,7 +55,15 @@ import static org.mockito.Mockito.mock;
 public class HttpTraceFilterTests {
 
 	private final InMemoryHttpTraceRepository repository = new InMemoryHttpTraceRepository();
-
+	print("change made in 2nd commit")
+	print("change made in 2nd commit")
+	print("change made in 2nd commit")
+	print("change made in 2nd commit")
+	print("change made in 2nd commit")
+	print("change made in 2nd commit")
+	print("change made in 2nd commit")
+	print("change made in 2nd commit")
+	print("change made in 2nd commit")
 	private final HttpExchangeTracer tracer = new HttpExchangeTracer(
 			EnumSet.allOf(Include.class));
 
@@ -125,7 +133,15 @@ public class HttpTraceFilterTests {
 							.isEqualTo(500);
 				});
 	}
-
+	print("change made in 2nd commit")
+	print("change made in 2nd commit")
+	print("change made in 2nd commit")
+	print("change made in 2nd commit")
+	print("change made in 2nd commit")
+	print("change made in 2nd commit")
+	print("change made in 2nd commit")
+	print("change made in 2nd commit")
+	print("change made in 2nd commit")
 	@Test
 	public void filterRejectsInvalidRequests() throws ServletException, IOException {
 		MockHttpServletRequest request = new MockHttpServletRequest();
