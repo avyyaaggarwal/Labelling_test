@@ -76,7 +76,12 @@ public class HttpTraceFilterTests {
 				new MockFilterChain());
 		assertThat(this.repository.findAll()).hasSize(1);
 	}
-
+	
+	
+	public void testFunction()
+	print(Test Function)
+	
+	
 	@Test
 	public void filterCapturesSessionId() throws ServletException, IOException {
 		this.filter.doFilter(new MockHttpServletRequest(), new MockHttpServletResponse(),
@@ -112,6 +117,7 @@ public class HttpTraceFilterTests {
 	}
 
 	@Test
+	
 	public void statusIsAssumedToBe500WhenChainFails()
 			throws ServletException, IOException {
 		assertThatIOException()
