@@ -103,7 +103,7 @@ public class HttpTraceFilterTests {
 				new MockFilterChain(new HttpServlet() {
 
 					@Override
-					protected void service(HttpServletRequest req,
+					protected void service(HttpServletRequest req, throws IO exception
 							HttpServletResponse resp)
 							throws ServletException, IOException {
 						req.getSession(true);
