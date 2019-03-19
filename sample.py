@@ -13,6 +13,19 @@ def subtract():
   print("change made by Avyya to check commit index")
   print(c)
   
+def subtract():
+  a = 10
+  b = 20
+  c = b - a
+  print("changes made in 12th commit")
+  print("changes made in 12th commit")
+  print("changes made in 12th commit")
+  
+  print("changes made in 12th commit")
+  print("changes made in 12th commit")
+  print("changes made in 12th commit")
+  print("changes made in 12th commit")
+  
 def multiple():
  a = 10
   b = 20
