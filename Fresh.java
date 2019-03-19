@@ -109,7 +109,7 @@ public class HttpTraceFilterTests {
 		assertThat(session).isNotNull();
 		assertThat(session.getId()).isNotNull();
 	}
-	print("change made in 3rd commit")
+	print("change made in 4th commit")
 	@Test
 	public void filterCapturesPrincipal() throws ServletException, IOException {
 		MockHttpServletRequest request = new MockHttpServletRequest();
