@@ -1,19 +1,4 @@
-def sum():
-  a = 10
-  b = 20
-  print(change in 10th commit)
-  print(change in 10th commit)
-  
-  
-  print("test change")
-  print(hey)
-  print(Helllo test)
-  print("test change")
-  print(hey)
-  print(Helllo test)
-  print(Helllo test)
-  c = a + b
-  print(c)
+
   
 def subtract():
   a = 10
@@ -35,6 +20,11 @@ def multiple():
   print("test change")
   print("change to test the updated algorithm"
   print("change made by Avyya to check commit index")
+  print("changes made in 11th commit")
+  print("changes made in 11th commit")
+  print("changes made in 11th commit")
+  print("changes made in 11th commit")
+  print("changes made in 11th commit")
   print(c)
 
   
