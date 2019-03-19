@@ -66,14 +66,18 @@ public class HttpTraceFilterTests {
 	print("change made in 10th commit")
 	print("change made in 2nd commit")
 	print("change made in 2nd commit")
+	Changes made in 11th commit
 	print("change made in 2nd commit")
+	Changes made in 11th commit
 	print("change made in 2nd commit")
 	print("change made in 7th commit")
+	Changes made in 11th commit
 	print("change made in 7th commit")
 	print("change made in 2nd commit")
 	print("change made in 2nd commit")
 	print("change made in 2nd commit")
 	print("change made in 10th commit")
+	Changes made in 11th commit
 	private final HttpExchangeTracer tracer = new HttpExchangeTracer(
 			EnumSet.allOf(Include.class));
 
